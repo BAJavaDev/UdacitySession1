@@ -18,6 +18,7 @@ public class Dates {
         }
 
         System.out.println("------------------------------------------------------------");
+        // Date manipulation
         System.out.println("Date manipulation using calendar");
 
         Date date = new Date();

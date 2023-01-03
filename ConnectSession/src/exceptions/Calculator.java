@@ -24,7 +24,7 @@ public class Calculator {
         System.out.println("Please enter your second number:");
         Integer num2 = scanner.nextInt();
         try {
-           // getMathRulesFromApi();
+            //getMathRulesFromApi();
 
             switch (operation) {
                 case 1:

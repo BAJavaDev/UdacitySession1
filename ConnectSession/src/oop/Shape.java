@@ -1,6 +1,7 @@
 package oop;
 // parent class
 public class Shape implements IShape{
+
     private final Double length;
     private final Double width;
     private final Double height;
@@ -24,15 +25,15 @@ public class Shape implements IShape{
         return length + width + height;
     }
 
-    public Double getHeight() {
-        return height;
+    public Double getLength() {
+        return length;
     }
 
     public Double getWidth() {
         return width;
     }
 
-    public Double getLength() {
-        return length;
+    public Double getHeight() {
+        return height;
     }
 }

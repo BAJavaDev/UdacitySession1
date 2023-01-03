@@ -5,6 +5,7 @@ public class Square extends Shape {
         super(sideLength,sideLength, 0.0);
     }
 
+    @Override
     public String getName(){
         return Square.class.getSimpleName();
     }
